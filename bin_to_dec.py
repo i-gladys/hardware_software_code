@@ -10,7 +10,7 @@ def binary_to_decimal(number):
 def main ():
     num = input ("Enter Binary Number: ")
     print("Binary to Decimal: {}".format(binary_to_decimal(num)))
-    # print(("Binary of: {}".format(num)) + (" is equal to the decimal: {}".format(binary_to_decimal(num))))
+    #print(("Binary of: {}".format(num)) + (" is equal to the decimal: {}".format(binary_to_decimal(num))))
     print("The binary number {0} is equal to the decimal numer {1}.".format(num,(binary_to_decimal(num))))
 
 if __name__ == "__main__":
