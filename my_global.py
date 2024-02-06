@@ -54,6 +54,7 @@ def main():
     input("Why is that?")
     print("Now let's look at global_add")
     sum = global_add(num1)
+    my_address('7. main sum', sum)
     ask_me(3, globalVar, sum)
     my_address('8. main globalVar', globalVar)
     my_address('9. main num', num1)
