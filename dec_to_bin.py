@@ -29,7 +29,7 @@ def main():
     #else:
         #print("Invalid Input!")
         #try_again = input("Try Again? ")
-            print("Decimal {} to Binary: {}".format(num,decimal_to_binary(num)))
+        print("Decimal {} to Binary: {}".format(num,decimal_to_binary(num)))
 
 if __name__ == "__main__":
     main()

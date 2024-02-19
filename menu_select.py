@@ -3,7 +3,7 @@ def execute_display(menu_dict):
         print("{}. {}".format(items, values.capitalize()))
     menu_selection = list(menu_dict.keys())
     selection = "#"
-    print(menu_selection)
+    #print(menu_selection)
 
     while selection not in menu_selection:
         selection = input("Enter: ")
@@ -14,9 +14,9 @@ def execute_display(menu_dict):
 
 def menu_display():
     menu_dict = { #this is a dictionary, there are key values pair.
-    '1':'decimal_to_binary',
-    '2':'binary_to_decimal',
-    'X':'exit_program'
+        '1':'decimal_to_binary',
+        '2':'binary_to_decimal',
+        'X':'exit_program'
     }
     #menu_dict_en = menu_dict.encode('ascii')
     return menu_dict #.decode()
